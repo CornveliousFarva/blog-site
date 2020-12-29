@@ -1,0 +1,17 @@
+.pagination-active {
+    background-color: blue;
+    cursor: pointer;
+    color: white;
+    padding: 10px 15px;
+    border: 1px solid #ccc; /* Gray */
+  }
+  
+  .pagination-item {
+    cursor: pointer;
+    border: 1px solid #ccc; /* Gray */
+    padding: 10px 15px;
+  }
+  
+  .pagination-item:hover {
+    background-color: #ccc
+  }
