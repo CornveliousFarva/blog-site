@@ -38,8 +38,7 @@ const ContextState = (props) => {
     /*
       Auth Reducer
     */
-    const [stateAuthReducer, dispatchAuthReducer] = useReducer(AuthReducer.AuthReducer,
-                                                               AuthReducer.initialState)
+    const [stateAuthReducer, dispatchAuthReducer] = useReducer(AuthReducer.AuthReducer, AuthReducer.initialState)
 
 
     const handleLogin = () => {
