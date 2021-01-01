@@ -15,3 +15,8 @@
   .pagination-item:hover {
     background-color: #ccc
   }
+
+  .FlexColumn{
+    display: flex;
+    flex-direction: column;
+  }
