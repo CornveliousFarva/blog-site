@@ -1,8 +1,8 @@
 import * as ACTION_TYPES from '../actions/action_types'
 
 export const initialState = {
-    user_textChange: '';
-    user_textSubmit: '';
+    user_textChange: '',
+    user_textSubmit: ''
 }
 
 export const FormReducer = (state, action) => {
